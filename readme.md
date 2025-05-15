@@ -72,6 +72,8 @@ Ne kete shembull perdoret `PreparedStatement` i cili ruan nga SQL Injection.
 
 
 ##  Ushtrimet me Connection
+
+## Sapo pashe qe per kalim te dhenash si parameter te perdorim klase Student me get , mendova se duhet te krijojme metodat ne nje klase Student :)
 **Shpjegim:**  
 Me shume shpjegime mbi keto rezultate kam vendosur komentet ne metoda si dhe thirrjet e funskioneve ne main 
 
