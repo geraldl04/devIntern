@@ -13,7 +13,7 @@ Ky kod perdor nje `Statement` per te marr informacion nga tabela `student`dhe pe
 
 
 **Rezultati:**  
-![img.png](img.png)
+![img.png](images/img.png)
 
 ---
 
@@ -23,7 +23,7 @@ Ky kod perdor nje `Statement` per te marr informacion nga tabela `student`dhe pe
 Esht`e perdorur `DatabaseMetaData` per te marre te gjitha te dhenat mbi databazen. Funksioni `getTables` kthen nje liste te tabelave ne databaze, te cilat iterohen dhe shfaqen.
 
 **Rezultati:**  
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
 ---
 
@@ -33,7 +33,7 @@ Esht`e perdorur `DatabaseMetaData` per te marre te gjitha te dhenat mbi databaze
 Ky kod perdor nje query te ngjashem me kerkesen e pare, por eshte shtuar nje kusht qe selekton vetem studentet me pike me te medha se 10.
 
 **Rezultati:**  
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 
 ---
 
@@ -43,7 +43,7 @@ Ky kod perdor nje query te ngjashem me kerkesen e pare, por eshte shtuar nje kus
 Gjate ekzekutimit, eshte vene re se insertimi behet 3 here pavaresisht nese user-i ekziston. Mund te shtohet nje kusht per te kontrolluar nese emri ekziston ne databaze dhe ne kete rast te mos ekzekutohet insertimi.
 
 **Rezultati:**  
-![img_4.png](img_4.png)
+![img_4.png](images/img_4.png)
 
 ---
 
@@ -53,7 +53,7 @@ Gjate ekzekutimit, eshte vene re se insertimi behet 3 here pavaresisht nese user
 Ky kod perdor te njejten logjike si kerkesa e pare, por ka nje shtese per te printuar pike para dhe pas update-it. Modifikohen pikat e nje studenti me emrin "Mirsalda".
 
 **Rezultati:**  
-![img_5.png](img_5.png)
+![img_5.png](images/img_5.png)
 
 ---
 
@@ -63,7 +63,38 @@ Ky kod perdor te njejten logjike si kerkesa e pare, por ka nje shtese per te pri
 Ne kete shembull perdoret `PreparedStatement` i cili ruan nga SQL Injection.
 
 **Rezultati:**  
-![img_6.png](img_6.png)
+![img_6.png](images/img_6.png)
 
 **Pas fshirjes:**  
-![img_7.png](img_7.png)
+![img_7.png](images/img_7.png)
+
+
+
+
+##  Ushtrimet me Connection
+**Shpjegim:**  
+Me shume shpjegime mbi keto rezultate kam vendosur komentet ne metoda si dhe thirrjet e funskioneve ne main 
+
+**Lidhja me databazen :**  
+
+![img_9.png](images/img_9.png)
+
+**Krijimi i tabeles:**  
+
+![img.png](images/img16.png)
+
+**Fshirja e tabeles :**  
+
+![img_2.png](images/img_12.png)
+
+**Shtimi i studentit**  
+
+![img.png](images/img10.png)
+
+**Modifikimi i studentit :**  
+
+![img_3.png](images/img_13.png)
+
+**Fshirja e studentit:**  
+
+![img_4.png](images/img_14.png)
