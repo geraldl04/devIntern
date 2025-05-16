@@ -31,11 +31,27 @@ public class MainKursiLombok {
                 .build();
 
 
+        Kursi  internship = new Kursi(
+                "Java ",
+                "3 muaj",
+                endra,
+                geri
+        );
+
+
+
         geri.setTrajneri(endra);
         mila.setTrajneri(endra);
 
         System.out.println(endra);
         System.out.println(geri);
+
+        System.out.println(endra.getKursantet());
+        System.out.println(geri.getTrajneri());
+
+        System.out.println("Kursi:");
+        System.out.println(internship );
+
 
     }
 }
